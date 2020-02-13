@@ -2168,7 +2168,8 @@ h3 {
 
 /* line 58, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_about.scss */
 .about_me .about_img .my_Pic img {
-  width: 100%;
+  width: 80%;
+   border-radius: 50%;
 }
 
 /* line 66, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_about.scss */
@@ -2895,10 +2896,10 @@ h3 {
 
 /* line 2, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_tesmonial.scss */
 .testimonial_area {
-  padding: 130px 0;
-  background-image: url(../img/testmonial/banner.png);
+  height: 800px;
+  background-image: url(../img/about/dokkyou_members.jpeg);
   position: relative;
-  z-index: 0;
+ 
   background-size: cover;
   background-position: center center;
 }
@@ -2936,7 +2937,7 @@ h3 {
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;
-  margin: 34px 0;
+  margin: 80px 0;
 }
 
 @media (min-width: 320px) and (max-width: 1500px) {
@@ -3115,13 +3116,14 @@ h3 {
 
 /* line 8, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_video.scss */
 .video_area .video_wrap .thumb {
+  text-align: center;
   margin-bottom: 70px;
   position: relative;
 }
 
 /* line 11, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_video.scss */
 .video_area .video_wrap .thumb img {
-  width: 100%;
+  width: 80%;
 }
 
 /* line 14, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_video.scss */
