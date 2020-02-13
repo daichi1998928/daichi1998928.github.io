@@ -2897,7 +2897,7 @@ h3 {
 /* line 2, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_tesmonial.scss */
 .testimonial_area {
   height: 800px;
-  background-image: url(../img/about/bokunatsu.jpeg);
+  background-image: url(../img/about/dokkyou_members.jpeg);
   position: relative;
  
   background-size: cover;
@@ -3116,13 +3116,14 @@ h3 {
 
 /* line 8, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_video.scss */
 .video_area .video_wrap .thumb {
+  text-align: center;
   margin-bottom: 70px;
   position: relative;
 }
 
 /* line 11, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_video.scss */
 .video_area .video_wrap .thumb img {
-  width: 100%;
+  width: 80%;
 }
 
 /* line 14, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_video.scss */
