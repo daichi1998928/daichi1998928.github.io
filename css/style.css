@@ -2181,13 +2181,42 @@ h3 {
   /* line 66, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_about.scss */
   .project_area {
     padding-bottom: 50px;
+    
   }
 }
-
+.projects_block{
+  overflow: hidden;
+  position: relative;
+  width: 500px;
+  height: 500px;
+}
 /* line 72, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_about.scss */
 .project_area .projects_thumb img {
   width: 100%;
+  height: 100%;
 }
+ .projects_thumb{
+   width: 500px;
+   height: 500px;
+   
+   
+  }
+.projects_thumb_hover{
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  background-color: white;
+  
+}
+.projects_thumb_hover img{
+  width: 50%;
+  height: 50%;
+}
+
 
 /* line 76, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_about.scss */
 .project_area .projects_info {
@@ -2204,9 +2233,9 @@ h3 {
 
 /* line 82, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_about.scss */
 .project_area .projects_info h3 {
-  font-size: 30px;
-  font-weight: 700;
-  line-height: 62px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 40px;
   margin-bottom: 0;
 }
 
