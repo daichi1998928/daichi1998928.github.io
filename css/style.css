@@ -696,6 +696,13 @@ h3 {
   }
 }
 
+@media(max-width: 800px){
+  .responsive_card{
+    text-align: center;
+    display:block ;
+    margin: 40px auto;
+  }
+}
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 24, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_section_title.scss */
   .section_title h3 {
@@ -1477,6 +1484,7 @@ h3 {
   left: 0;
   background-repeat:no-repeat ;
   background-image: url(../img/about/daichi.png);
+
   width: 724px;
   height: 767px;
   content: '';
@@ -2093,6 +2101,7 @@ h3 {
 @media (max-width: 767px) {
   /* line 1, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_about.scss */
   .about_me {
+    text-align: center;
     padding-top: 0;
     padding-bottom: 0;
   }
@@ -2129,7 +2138,12 @@ h3 {
   font-weight: 700;
   color: #001D38;
 }
-
+@media (max-width: 800px) {
+  /* line 21, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_about.scss */
+  .about_me .about_e_details h3{
+    padding-top: 20px;
+  }
+}
 /* line 30, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_about.scss */
 .about_me .about_e_details p {
   font-size: 15px;
@@ -2143,7 +2157,11 @@ h3 {
 .about_me .about_img {
   position: relative;
 }
-
+@media(max-width:800px){
+  .about_me .about_img {
+    padding-bottom: 20px;
+  }
+}
 /* line 45, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_about.scss */
 .about_me .about_img .color_pattern {
   position: absolute;
@@ -2464,6 +2482,7 @@ h3 {
   .footer .footer_top {
     padding-top: 50px;
     padding-bottom: 30px;
+    text-align: center;
   }
 }
 
@@ -2485,6 +2504,10 @@ h3 {
   /* line 20, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_footer.scss */
   .footer .footer_top .menu_links ul li {
     margin-right: 20px;
+  
+  }
+  .socail_links ul{
+    text-align: center;
   }
 }
 
@@ -3226,7 +3249,18 @@ h3 {
   background-repeat: no-repeat;
   position: relative;
   padding-top: 180px;
-  padding-bottom: 340px;
+  padding-bottom: 100px;
+}
+@media(max-width: 800px){
+  .portfolio_area {
+    background-image: url(../img/banner/portfolio_bg.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-top: 180px;
+    padding-bottom: 10px;
+  }
 }
 
 @media (max-width: 767px) {
