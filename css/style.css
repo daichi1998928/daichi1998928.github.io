@@ -2192,16 +2192,26 @@ h3 {
 
 /* line 66, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_about.scss */
 .project_area {
+  margin-top: 300px;
   padding-bottom: 150px;
 }
 
 @media (max-width: 767px) {
   /* line 66, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_about.scss */
   .project_area {
+    margin-top: 100px;
     padding-bottom: 50px;
     
   }
+  .project_area1{
+    margin-top: 40px !important; 
+  }
+  .project_button{
+    margin-bottom: 30px;
+  }
 }
+
+
 .projects_block{
   overflow: hidden;
   position: relative;
@@ -2241,6 +2251,21 @@ h3 {
   padding-left: 68px;
 }
 
+@media(max-width: 850px){
+
+  .projects_block{
+    width: 330px;
+    height: 400px;
+  }
+  .projects_thumb{
+    width: 330px;
+    height: 330px;
+  }
+  .projects_thumb_hover{
+    width: 330px;
+    height: 330px;
+  }
+}
 @media (max-width: 767px) {
   /* line 76, ../../Arafath/CL/CL October/218 PORTFOLIO/HTML/scss/_about.scss */
   .project_area .projects_info {
